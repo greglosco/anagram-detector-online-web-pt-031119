@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
   
-  def match(word)
-    
+  def match(anagrams)
+    anagrams.find {|word| }
   end
 end
