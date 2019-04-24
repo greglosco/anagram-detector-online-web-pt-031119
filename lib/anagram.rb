@@ -7,7 +7,5 @@ class Anagram
     @word = word
   end
   
-  def match(anagrams)
-    @word.each {|word| }
-  end
+  
 end
