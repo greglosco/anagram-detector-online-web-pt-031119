@@ -8,6 +8,6 @@ class Anagram
   end
   
   def match(anagrams)
-    anagrams.find {|word| }
+    anagrams.find {|word| @word.sort == word.sort}
   end
 end
